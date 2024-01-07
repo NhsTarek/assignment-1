@@ -13,7 +13,7 @@ font-family: 'Inter', sans-serif; */
 }
 
 .banner {
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('./resources/Banner\ Image.png');
     display: flex;
     background-size: cover;
     height: 100vh;

@@ -13,7 +13,7 @@ font-family: 'Inter', sans-serif; */
 }
 
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     display: flex;
     background-size: cover;
     height: 100vh;
@@ -49,6 +49,8 @@ font-family: 'Inter', sans-serif; */
     line-height: 95px;
     width: 632px;
 }
+
+/* Discount section related styles */
 
 .discount {
     color: #F00;
@@ -92,15 +94,12 @@ font-family: 'Inter', sans-serif; */
 /* main related styles */
 
 .party {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     display: block;
     margin: auto;
     background-repeat: no-repeat;
     width: 1300px;
     border-radius: 16px;
-
-
-
 
 }
 
@@ -152,20 +151,18 @@ font-family: 'Inter', sans-serif; */
 .banner2024 {
     padding-top: 76px;
     padding-bottom: 65px;
-
-
 }
 
 .gap {
     margin-bottom: 100px;
 }
 
+/* Venue related styles */
+
 .venue {
     background-color: rgb(233, 233, 220);
     margin: auto;
     width: 1300px;
-
-
 }
 
 .venue-container {
@@ -209,14 +206,14 @@ font-family: 'Inter', sans-serif; */
     margin-top: 45px;
 }
 
+/* Best offer related styles */
+
 .bestoffer-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 100px 0;
     background-color: #FFF;
-
-
 }
 
 .offer-column {
@@ -259,7 +256,6 @@ font-family: 'Inter', sans-serif; */
     height: 364.844px;
     border-radius: 463px;
     border: 15px solid #F00;
-
 
 }
 
@@ -409,35 +405,147 @@ font-family: 'Inter', sans-serif; */
     width: 896px;
 
 }
-.portfolio-galary img{
+
+.portfolio-galary img {
     /* width: 400px;
     height: 430px; */
     /* padding: 10px; */
     box-shadow: 0 0 20px 2px rgba(37, 37, 37, 0.8);
     border-radius: 16px;
     transition: all 1.1s;
-    
+
 }
-.portfolio-galary{
+
+.portfolio-galary {
     display: flex;
     justify-content: center;
     gap: 20px;
-       
+
 }
-.portfolio-galary2{
+
+.portfolio-galary2 {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 10px;
     border-radius: 16px;
 }
-.portfolio-galary2 img{
+
+.portfolio-galary2 img {
     box-shadow: 0 0 20px 2px rgba(37, 37, 37, 0.8);
     border-radius: 16px;
     transition: all 1.1s;
     margin-bottom: 100px;
 }
 
-.port-img:hover{
+.port-img:hover {
     transform: scale(1.2);
 }
+
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    width: 1320px;
+    height: 500px;
+    margin-left: 20px;
+
+}
+
+.newsletter img {
+    padding-top: 80px;
+}
+
+#news-tittle {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+#news-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 1200px;
+    margin-left: 45px;
+}
+
+#email {
+    border-radius: 50px;
+    background: #FFF;
+    width: 300px;
+    height: 18px;
+    padding: 20px 100px 20px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-top: 30px;
+
+}
+
+#subscribe-btn {
+    width: 205px;
+    height: 60px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: relative;
+    right: 35px;
+    bottom: 0px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Footer related styles */
+
+.footer-container {
+    background: #070211;
+    width: 1350px;
+    height: 609px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+#address {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 400px;
+    padding-left: 130px;
+    padding-bottom: 200px;
+}
+
+.footer-contact h4 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+#block{
+    display: inline;
+}
+
+   

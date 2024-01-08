@@ -13,7 +13,7 @@ font-family: 'Inter', sans-serif; */
 }
 
 .banner {
-    background-image: url('./resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
     display: flex;
     background-size: cover;
     height: 100vh;
@@ -23,6 +23,9 @@ font-family: 'Inter', sans-serif; */
     margin-right: 50px;
     margin-left: 30px;
     margin-top: 5px;
+    border-radius: 16px;
+
+
 }
 
 .banner-tittle {
@@ -67,4 +70,221 @@ font-family: 'Inter', sans-serif; */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.category {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.category-container {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+/* main related styles */
+
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 1300px;
+    border-radius: 16px;
+
+
+
+
+}
+
+.party-container {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.party-tittle {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-left: 120px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-left: 120px;
+}
+
+.party-btn {
+    background: none;
+    color: white;
+    border: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 45px;
+
+}
+
+.banner2024 {
+    padding-top: 76px;
+    padding-bottom: 65px;
+
+
+}
+
+.gap {
+    margin-bottom: 100px;
+}
+
+.venue {
+    background-color: rgb(233, 233, 220);
+    margin: auto;
+    width: 1300px;
+
+
+}
+
+.venue-container {
+    text-align: center;
+    padding: 100px 200px 100px;
+
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.venue-details {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px 32px;
+    border: none;
+    margin-top: 45px;
+}
+
+.bestoffer-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 100px 0;
+    background-color: #FFF;
+
+
+}
+
+.offer-column {
+    flex: 1;
+    margin: 30px;
+    padding: 10px;
+}
+
+#offer {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+#coming {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.excitment {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.happy-img {
+    padding: 20px;
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+
+}
+
+#newyear {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 110px;
+
+}
+
+#wishing {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    padding-top: 5px;
+}
+#newyear-img{
+    padding-top: 40px;
+    padding-right: 130px;
 }

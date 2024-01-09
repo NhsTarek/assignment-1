@@ -20,10 +20,12 @@ font-family: 'Inter', sans-serif; */
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    margin-right: 50px;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
     border-radius: 16px;
+    width: 1300px;
+    position: relative;right: 10px;
+    
 
 
 }
@@ -145,6 +147,7 @@ font-family: 'Inter', sans-serif; */
     text-transform: uppercase;
     padding-left: 150px;
     padding-top: 45px;
+    cursor: pointer;
 
 }
 
@@ -204,6 +207,7 @@ font-family: 'Inter', sans-serif; */
     padding: 10px 32px;
     border: none;
     margin-top: 45px;
+    cursor: pointer;
 }
 
 /* Best offer related styles */
@@ -510,42 +514,102 @@ font-family: 'Inter', sans-serif; */
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 /* Footer related styles */
 
 .footer-container {
-    background: #070211;
-    width: 1350px;
-    height: 609px;
+    background-color: #070211;
+    height: 50%;
     display: flex;
+}
+
+.footer-container h4 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    flex-shrink: 0
+}
+.footer-contacts{
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+.footer-icons{
+    margin-top: 70px;
+    padding-left: 100px;
+    /* margin-left: 500px; */
+    position: relative;left: 210px;
+    top: 5px;
+}
+#call{
+    margin-top: 2px;
+}
+.footer-adress{
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.social-icons{
+    background: #070211;
+    height: 400px;
+    /* display: flex; */
+}
+
+.line1{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    width: 75%;
+    margin-left: 100px;
+    text-align: center;
+}
+.social-links{
+    margin-top: 30px;
     align-items: center;
-    gap: 200px;
+    margin-left: 520px;
 }
-
-#address {
+.social-links a{
+    padding: 5px;
+}
+.line2{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    width: 75%;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+.rights h4{
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    width: 400px;
-    padding-left: 130px;
-    padding-bottom: 200px;
+    flex-shrink: 0
 }
-
-.footer-contact h4 {
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
+.rights{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 800px;
+}
+.unsub-btn{
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: none;
+border: none;
+cursor: pointer;
+}
     
-}
-#block{
-    display: inline;
-}
 
-   
